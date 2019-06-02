@@ -8,6 +8,12 @@ router.get('/add',(req,res)=>{
     res.render('links/add');
    
 });
+router.get('/NuestrasPropuestas',(req,res)=>{
+    res.render('links/propuesta');
+});
+router.get('/Inicial',(req,res)=>{
+    res.render('links/inicial');
+});
 router.post('/add', async (req,res)=>{
     const {title,url,descripcion} = req.body;
     const newlink = {
