@@ -1,0 +1,108 @@
+.contenedor{
+    position: relative;
+}
+
+.contenedor::after{
+    content: "";
+    background: url(/img/banner_3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: -1;
+    /*opacity: 0.5;*/
+    filter: brightness(65%);
+    
+
+}
+.cintillo{
+    color: white;
+
+}
+.link-menu{
+    font-size: 25px!important;
+   
+}
+.link-menu a{
+     color: white!important;
+}
+.logo-menu{
+    font-size: 30px!important;
+    color: white!important;
+}
+.menu{
+    color: white;
+}
+.titulo{
+    min-height: 500px;
+    color:white;
+}
+/*  seccion 2    */ 
+.iconos{
+    color: white;
+}
+/*    ---SECCION 3---     */
+.seccion-2{
+    position: relative;
+    color: white;
+}
+.seccion-2::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background:url(/img/seccion2-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    filter: brightness(60%);
+}   
+.seccion-2-texto{
+    color: black;
+}
+.menu{
+    border-style:none!important;
+}
+/**********************************/
+.iconos-section-2{
+    color:#158CBA ;
+}
+/** Frase  **/
+.frase{
+    min-height: 300px;
+    position: relative;
+}
+.frase::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+    position: absolute;
+    opacity:0.7;
+    z-index: -1;
+}
+/** EDIFICACION **/
+.edificacion-cuadro-1{
+    border-right: 1px solid #158CBA;
+    border-bottom: 1px solid #158CBA;
+}
+.edificacion-cuadro-2{
+    border-bottom: 1px solid #158CBA;
+}
+.edificacion-cuadro-3{
+    border-right: 1px solid #158CBA;
+}
+/*    METODO   */
+.section-MetodoEstudio{
+    /*background-color: #54352c;*/
+    /*background-color: #6f3b31;*/
+    background-color: #261d17;
+}
