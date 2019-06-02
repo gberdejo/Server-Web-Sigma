@@ -14,6 +14,12 @@ router.get('/NuestrasPropuestas',(req,res)=>{
 router.get('/Inicial',(req,res)=>{
     res.render('links/inicial');
 });
+router.get('/Primaria',(req,res)=>{
+    res.render('links/primaria');
+});
+router.get('/Nosotros',(req,res)=>{
+    res.render('links/nosotros');
+});
 router.post('/add', async (req,res)=>{
     const {title,url,descripcion} = req.body;
     const newlink = {

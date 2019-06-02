@@ -136,3 +136,42 @@
     z-index: -1;
     filter: brightness(50%);
 }
+/*  frase-inicial   */
+.frase-inicial{
+    min-height: 250px; 
+}
+/*     .primaria-footer          */
+.primaria-footer{
+    position: relative;
+}
+.primaria-footer::after{
+    content: "";
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #88481d;
+    opacity: 0.4;
+
+}
+/*              */
+.nosotros-banner{
+    position: relative;
+}
+.nosotros-banner .row{
+    min-height: 300px;
+}
+.nosotros-banner::after{
+    content: "";
+    width: 100%;
+    background: url(/img/nosotros.jpg);
+    background-size: cover;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #88481d;
+    z-index: -1;
+    filter: brightness(70%);
+}
