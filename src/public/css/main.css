@@ -1,9 +1,9 @@
 .bg-primary{
-    background-color:  #c05f1e!important;
-    border-color: #e9bb9c!important;
+    background-color:  rgb(207, 102, 32)!important;
+    border-color: #794810!important;
 }
 .text-primary{
-    color:#f37c2d!important;
+    color:#ad3510!important;
 }
 .titulo{
     position: relative;
@@ -55,7 +55,8 @@
 }
 /**********************************/
 .iconos-section-2{
-    color:#158CBA ;
+    /*color:#158CBA ;*/
+    color:#ad3510;
 }
 /** Frase  **/
 .frase{

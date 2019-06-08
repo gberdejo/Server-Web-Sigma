@@ -2,10 +2,9 @@ const express = require('express');
 const router = express.Router();
 const path = require('path');
 //conectando a la base de datos
-const pool = require('../database');
 
-router.get('/add',(req,res)=>{
-    res.render('links/add');
+router.get('/Contacto',(req,res)=>{
+    res.render('links/contacto');
    
 });
 router.get('/NuestrasPropuestas',(req,res)=>{
