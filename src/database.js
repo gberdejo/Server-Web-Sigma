@@ -1,4 +1,4 @@
-const mysql = require('mysql');
+/*const mysql = require('mysql');
 const {promisify} = require('util'); //creando objeto
 const {database} = require('./keys');
 
@@ -31,4 +31,4 @@ pool.getConnection((err,connection)=>{
 });;
 
 pool.query = promisify(pool.query);
-module.exports = pool;
+module.exports = pool;*/
