@@ -19,15 +19,17 @@ router.get('/Primaria',(req,res)=>{
 router.get('/Nosotros',(req,res)=>{
     res.render('links/nosotros');
 });
-router.post('/add', async (req,res)=>{
-    const {title,url,descripcion} = req.body;
-    const newlink = {
-        title,
-        url,
-        descripcion
-    };
-    //await pool.query('INSERT INTO links set ?',[newlink]);
-    console.log(newlink);
-    res.send('resivido');
+/* Api Recetas */
+router.post('/api/user',(req,res)=>{
+    var {nombre,apellido,edad,direccion} = req.body;
+    var dni = {
+        nombre,apellido,edad,direccion
+    }
+    console.log(dni);
+    res.status(200).send(dni);
 });
+
+
+
+
 module.exports = router; 
